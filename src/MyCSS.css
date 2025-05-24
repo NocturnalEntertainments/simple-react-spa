@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffc526;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.navbar button {
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 200%;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.navbar button:hover {
+  background-color: #0004ff;
+}
+
+.content {
+  margin-top: 50px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 3em;
+  color: #000000;
+}
+
+p {
+  font-size: 2em;
+  color: #000000;
+}
